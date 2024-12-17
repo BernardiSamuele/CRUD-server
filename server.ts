@@ -13,7 +13,7 @@ const dbName = process.env.dbName;
 const connectionString = process.env.connectionStringAtlas!;
 
 /* ********************** HTTP server ********************** */
-const port = process.env.port;
+const port = process.env.PORT;
 let paginaErrore: string;
 const app = express();
 const server = http.createServer(app);
